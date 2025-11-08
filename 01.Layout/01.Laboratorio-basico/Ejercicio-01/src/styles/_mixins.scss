@@ -1,0 +1,15 @@
+@mixin color-scheme($background, $palette) {
+	background-color: $background;
+
+	$bg-lightness: lightness($background);
+
+	@if $bg-lightness > 60% {
+		$text-color: map-get($palette, "dark-3");
+		color: if($text-color, $text-color, black);
+	} @else if $bg-lightness < 40% {
+		$text-color: map-get($palette, "light-3");
+		color: if($text-color, $text-color, white);
+	} @else {
+		color: "dark-1";
+	}
+}

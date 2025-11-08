@@ -1,1 +1,28 @@
-@import "resets";
+@use "variables";
+@use "generatePalette";
+@use "resets";
+@use "mixins";
+
+#result {
+	display: flex;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	background-color: variables.$primary;
+	font-weight: 600;
+	text-align: center;
+}
+
+//Cambia el $primary-color para probar la paleta.
+
+$primary-color: variables.$primary;
+
+$palette: generatePalette.generatePalette($primary-color, 4, 20%);
+
+@each $name, $color in $palette {
+	.#{$name} {
+		@include mixins.color-scheme($color, $palette);
+	}
+}

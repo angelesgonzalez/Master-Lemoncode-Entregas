@@ -1,34 +1,34 @@
+# Node modules
+node_modules/
+
+# Vite cache (opcional, si usas cache fuera de node_modules)
+.vite/
+
+# Build output
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
 # macOS system files
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
-.com.apple.timemachine.donotpresent
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-*.icloud
 
-# Vite build output
-/dist
-/node_modules
-
+# Editor directories and files
+.vscode/
+.idea/
 
 # Environment variables
+.env
 .env.local
 .env.*.local
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Optional
+*.tgz

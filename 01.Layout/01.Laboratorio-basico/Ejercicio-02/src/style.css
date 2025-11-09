@@ -175,3 +175,12 @@ main {
     }
 
 }
+
+#theme-toggle {
+    opacity: 50%;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 100%;
+    }
+}

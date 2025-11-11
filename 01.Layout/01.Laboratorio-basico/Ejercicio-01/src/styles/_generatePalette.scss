@@ -1,0 +1,21 @@
+@function generatePalette($color, $steps: 4, $amount: 10%) {
+	$palette: ();
+
+	@for $i from 0 through $steps {
+		$light: mix(white, $color, $amount * $i);
+		$dark: mix(black, $color, $amount * $i);
+
+		$palette: map-merge(
+			$palette,
+			(
+				"base": $color,
+				"light-#{$i}": $light,
+				"dark-#{$i}": $dark,
+			)
+		);
+	}
+
+	@return $palette;
+}
+
+// Esta funcion recibe 3 parametros, el color base, el numero de pasos (shades) a crear y el grado de mezcla de blanco & negro.

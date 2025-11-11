@@ -25,7 +25,6 @@ Temporary Items
 # Sass cache and generated files
 **/.sass-cache
 *.css.map
-*.css
 
 # Environment variables
 .env.local

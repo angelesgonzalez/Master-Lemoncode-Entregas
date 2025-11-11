@@ -1,0 +1,68 @@
+:root {
+
+    --Driftwood-50: #F7F4EF;
+    --Driftwood-100: #EBE3D6;
+    --Driftwood-200: #D9C9AF;
+    --Driftwood-300: #C3A681;
+    --Driftwood-400: #B18A5E;
+    --Driftwood-500: #AB7F55;
+    --Driftwood-600: #8B6143;
+    --Driftwood-700: #704A38;
+    --Driftwood-800: #5F3F34;
+    --Driftwood-900: #533830;
+    --Driftwood-950: #2F1D19;
+    --white: #FCFAF8;
+    --black: #110A09;
+
+    /* Light theme */
+    --background-color: var(--white);
+    --nav-color: var(--black);
+    --text-color: var(--white);
+    --accent-color: var(--Driftwood-950);
+    --surface-color: var(--Driftwood-400);
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --border: 2px solid var(--Driftwood-200);
+
+    /* Typography  */
+
+    --font-primary: 'Poppins', sans-serif;
+    --font-size-xs: 0.875rem;
+    /* 14px */
+    --font-size-sm: 1rem;
+    /* 16px */
+    --font-size-md: 1.375rem;
+    /* 22px */
+    --font-size-lg: 1.875rem;
+    /* 30px */
+
+    /* Spacing Scale */
+
+    --space-xs: 0.5rem;
+    /* 8px  */
+    --space-sm: 0.75rem;
+    /* 12px */
+    --space-md: 1rem;
+    /* 16px */
+    --space-lg: 1.5rem;
+    /* 24px */
+    --space-xl: 2.25rem;
+    /* 36px */
+    --space-xxl: 3.375rem;
+    /* 54px */
+
+
+
+}
+
+/* Dark theme */
+
+[data-theme="dark"] {
+    --background-color: var(--black);
+    --text-color: var(--black);
+    --nav-color: var(--white);
+    --accent-color: var(--Driftwood-400);
+    --surface-color: var(--Driftwood-200);
+    --shadow-color: rgba(255, 255, 255, 0.1);
+    --border: 1px solid var(--Driftwood-700);
+    --font-primary: 'Roboto', sans-serif;
+}

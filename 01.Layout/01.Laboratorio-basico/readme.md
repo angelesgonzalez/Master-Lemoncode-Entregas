@@ -14,7 +14,7 @@ Este proyecto contiene los ejercicios del laboratorio básico del módulo Layout
 - `index.html`
 
 **Resultado esperado:**
-![Ejercicio 1 - Paleta de colores](/demo/ejercicio-01.png)
+![Ejercicio 1 - Paleta de colores](./demo/ejercicio-01.png)
 
 ## Ejercicio 2: Sistema de Temas CSS
 
@@ -50,6 +50,7 @@ Este proyecto contiene los ejercicios del laboratorio básico del módulo Layout
 - `index.html`
 
 **Resultado**
+
 ![Ejercicio 4 - Card](./demo/ejercicio-4.png)
 
 ## Instalación y Uso
